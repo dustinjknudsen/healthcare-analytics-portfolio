@@ -1,0 +1,25 @@
+# Data - raw extracts are large and regeneratable
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tableau workbook backups
+*.twbx.bak
+data/processed/timely_effective_care.csv
